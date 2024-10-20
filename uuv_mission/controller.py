@@ -1,7 +1,7 @@
 # Implementing a PD controller
 
 class PDcontroller:
-    def __init__(self, KP=0.15, KD=0.55):
+    def __init__(self, KP=0.15, KD=0.8):
         self.KP = KP
         self.KD = KD
         self.previous_error = 0
